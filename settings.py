@@ -232,7 +232,8 @@ PEOPLE_PER_PAGE = 5 # the default is 10
 ################
 
 INSTALLED_APPS = (
-    "theme",
+    #"theme",
+    'moderna',
     "django.contrib.admin",
     "django.contrib.auth",
     "django.contrib.contenttypes",
@@ -254,6 +255,7 @@ INSTALLED_APPS = (
     "mezzanine.mobile",
     "mezzanine_people",
     'mezzanine_bsbanners',
+
 )
 
 # List of processors used by RequestContext to populate the context.
