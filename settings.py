@@ -232,8 +232,8 @@ PEOPLE_PER_PAGE = 5 # the default is 10
 ################
 
 INSTALLED_APPS = (
-    #"theme",
-    'moderna',
+    "theme",
+    #'moderna',
     "django.contrib.admin",
     "django.contrib.auth",
     "django.contrib.contenttypes",
@@ -255,6 +255,8 @@ INSTALLED_APPS = (
     "mezzanine.mobile",
     "mezzanine_people",
     'mezzanine_bsbanners',
+    'books',
+    'django.contrib.comments'
 
 )
 
@@ -369,3 +371,7 @@ except ImportError:
     pass
 else:
     set_dynamic_settings(globals())
+
+
+COMMENTS_ACCOUNT_REQUIRED = True
+RATINGS_RANGE = range(1, 11)
