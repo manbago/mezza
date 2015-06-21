@@ -104,7 +104,7 @@ ALLOWED_HOSTS = ['example.com', 'www.example.com']
 # system time zone.
 TIME_ZONE = 'Europe/Madrid'
 
-# If you set this to True, Django will use timezone-aware datetimes.
+# If you set this to True, Django will use timezone-aware datetimes.ll
 USE_TZ = True
 
 # Language code for this installation. All choices can be found here:
